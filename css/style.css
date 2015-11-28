@@ -54,8 +54,12 @@ header{
 	width: 100%;
 }
 
+#projeto-explore{
+	width: 22%;	
+}
+
 #explore{
-	margin: 10% 0 0 0;
+	margin: 50% 0 0 0;
 }
 
 .title-explore{
@@ -66,12 +70,12 @@ header{
 	display: none;
 }
 
-#title-one-hover{
+#title-one:hover{
 	display: block;
 }
 
 #div-one{
-	width: 2.083%;
+	width: 9.469%;
 	height: 74px;
 	background-color: #ff7700;
 }
@@ -79,11 +83,11 @@ header{
 #div-one:hover{
 	-webkit-transition: width 0.5s;
     transition: width 0.5s;
-	width: 20.833%;
+	width: 94.696%;
 }
 
 #div-two{
-	width: 2.083%;
+	width: 9.469%;
 	height: 74px;
 	background-color: #86c700;
 }
@@ -91,11 +95,11 @@ header{
 #div-two:hover{
 	-webkit-transition: width 0.5s;
     transition: width 0.5s;
-	width: 20.833%;	
+	width: 94.696%;
 }
 
 #div-three{
-	width: 2.083%;
+	width: 9.469%;
 	height: 74px;
 	background-color: #f07a5c;
 }
@@ -103,11 +107,11 @@ header{
 #div-three:hover{
 	-webkit-transition: width 0.5s;
     transition: width 0.5s;
-	width: 20.833%;	
+	width: 94.696%;
 }
 
 #div-four{
-	width: 2.083%;
+	width: 9.469%;
 	height: 74px;
 	background-color: #373737;
 	
@@ -116,7 +120,20 @@ header{
 #div-four:hover{
 	-webkit-transition: width 0.5s;
     transition: width 0.5s;
-	width: 20.833%;	
+	width: 94.696%;
+}
+
+#conteudo-projeto{
+	width: 50%;
+	height: 296px;
+	background-color: red;
+	float: left;
+	margin-left: 500px;
+	display: none;
+}
+
+.caixa-texto{
+	display: none;
 }
 
 #about-project{
