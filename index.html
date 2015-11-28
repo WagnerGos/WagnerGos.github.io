@@ -201,6 +201,49 @@
 			$("#ecotruck").css({"display": "none"});
 		});
 
+		$("#div-one").click(function(){
+			$("#conteudo-projeto").css({"display": "block"});
+			$("#conteudo-projeto").css({"background-color": "#ff7700"});
+
+			$("#caixa-one").css({"display": "block"});
+			$("#caixa-two").css({"display": "none"});
+			$("#caixa-three").css({"display": "none"});
+			$("#caixa-four").css({"display": "none"});
+		});
+
+		$("#div-two").click(function(){
+			$("#conteudo-projeto").css({"display": "block"});
+			$("#conteudo-projeto").css({"background-color": "#86c700"});
+			
+			$("#caixa-one").css({"display": "none"});
+			$("#caixa-two").css({"display": "block"});
+			$("#caixa-three").css({"display": "none"});
+			$("#caixa-four").css({"display": "none"});
+		});
+
+		$("#div-three").click(function(){
+			$("#conteudo-projeto").css({"display": "block"});
+			$("#conteudo-projeto").css({"background-color": "#f07a5c"});
+			
+			$("#caixa-one").css({"display": "none"});
+			$("#caixa-two").css({"display": "none"});
+			$("#caixa-three").css({"display": "block"});
+			$("#caixa-four").css({"display": "none"});
+		});
+
+		$("#div-four").click(function(){
+			$("#conteudo-projeto").css({"display": "block"});
+			$("#conteudo-projeto").css({"background-color": "#373737"});
+			
+			$("#caixa-one").css({"display": "none"});
+			$("#caixa-two").css({"display": "none"});
+			$("#caixa-three").css({"display": "none"});
+			$("#caixa-four").css({"display": "block"});
+		});
+
+
+
+
 		/*$(".projeto-nav").click(function(){
 			$("body").css({"background-color":"#333333"});
 			
@@ -329,19 +372,22 @@
 			<!--*****PROJETO*****-->
 
 			<section id="projeto">
+
+				<div id="conteudo-projeto">
+						<p id="caixa-one" class="caixa-texto">UM</p>
+						<p id="caixa-two" class="caixa-texto">DOIS</p>
+						<p id="caixa-three" class="caixa-texto">TRES</p>
+						<p id="caixa-four" class="caixa-texto">QUATRO</p>
+				</div>
+
 				<div id="projeto-explore">
 
 					<div id="explore">
-						<div id="div-one"><p id="title-one" class="title-explore">TITULO</p></div>
-						<div id="div-two"><p id="title-two" class="title-explore">TITULO</p></div>
-						<div id="div-three"><p id="title-three" class="title-explore">TITULO</p></div>
-						<div id="div-four"><p id="title-three" class="title-explore">TITULO</p></div>
+						<div id="div-one"><p id="title-one" class="title-explore"></p></div>
+						<div id="div-two"><p id="title-two" class="title-explore"></p></div>
+						<div id="div-three"><p id="title-three" class="title-explore"></p></div>
+						<div id="div-four"><p id="title-three" class="title-explore"></p></div>
 					</div>
-
-					</div id="conteudo-projeto">
-						<div id="teste"></div>
-					</div>
-
 				</div>
 
 				<div id="sections-projeto">
@@ -404,4 +450,3 @@
 	</div>
 </body>
 </html>
-
